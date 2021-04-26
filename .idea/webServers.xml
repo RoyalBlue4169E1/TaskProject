@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f5d13b01-f9da-4d5e-b325-b410d5de0a50" name="aliyun">
+        <fileTransfer accessType="SFTP" host="39.106.254.249" port="22" sshConfigId="50b4e5da-fa1a-444c-9d6c-3e4899242d02" sshConfig="root@39.106.254.249:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
