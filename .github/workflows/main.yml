@@ -3,7 +3,7 @@ on:
     branches:
       - main
 
-name: Build For platforms
+name: MGD SignIn
 
 jobs:
   build:
@@ -35,13 +35,13 @@ jobs:
       run: go mod download
 
     - name: Build
-      run: go build -o executable main.go
+      run: go build -o MGDexecutable mainMGD.go
     
     - name: Chmod
-      run: chmod +x executable
+      run: chmod +x MGDexecutable
     
     - name: List Files
       run: ls && pwd
 
     - name: Run
-      run: ./executable 
+      run: ./MGDexecutable 
