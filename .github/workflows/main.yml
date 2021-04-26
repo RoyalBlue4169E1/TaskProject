@@ -13,4 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'MGD SigIn'
-        run: bash ./MGD
+        run:  ./MGD
