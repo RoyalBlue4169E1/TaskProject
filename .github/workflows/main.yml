@@ -1,0 +1,15 @@
+name: 'MGD SignIn'
+ 
+on:
+  push:
+  schedule:
+  # 定时任务，在每天早上8:10，下午18:15 蘑菇丁签到
+    - cron:  40 12 * * *
+    - cron:  15 22 * * *
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'MGD SigIn'
+        run: bash ./MGD
