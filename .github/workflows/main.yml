@@ -15,4 +15,4 @@ jobs:
       - name: 'ls'
         run:  ls
       - name: 'MGD SigIn'
-        run:  ../MGD
+        run:  ./MGD.exe
